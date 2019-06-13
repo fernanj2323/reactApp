@@ -1,33 +1,68 @@
 .App {
-  text-align: center;
+
+}
+
+.App-content{
+  text-align: left; 
+
+} 
+
+.content {
+  text-align: left; 
 }
 
 .App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+
+  margin: 0px 536px -25px 367px;
+}
+
+.header { 
+  margin: 116px 0px 32px;
+}
+
+.logginPage{
+  width: 1024px;
+  height: 688px;
+}
+.login{
+   margin: 0px 536px 32px 425px;
+   height: 26px;
+   font-family: Arial;
+    font-size: 23px;
+  
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0px;
+  color: #363636;
+}
+
+.form-groupEmail {
+  width: 275px;
+  margin: 0px 374px 29px 375px;
+}
+.form-groupPass{
+  width: 275px;
+  margin: 0px 374px 31px 375px ;
+}
+.form-groupPass2{
+  width: 275px;
+  margin: 0px 374px 31px 375px ;
+}
+.btn-primary{
+  width: 110px;
+  margin: 0px 374px 61px 540px ;
+}
+.simpletext{ 
+  width: 376px;
+  margin: 0px 315px 15px 336px ;
+  text-align: center;
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+background: #0F2027;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }

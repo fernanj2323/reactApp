@@ -1,0 +1,16 @@
+{
+"logStatus": 
+[
+    {
+        "user": "linktic",
+        "pass": "12345678",
+        "Auth": "Denied"
+    },  
+    {
+        "user": "Admin",
+        "pass": "Admin",
+        "Auth": "Logged"
+    }
+   
+]
+}
